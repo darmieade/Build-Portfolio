@@ -7,3 +7,22 @@ html{
 *::after{
   box-sizing: border-box;
 }
+
+.header-logo{
+  width: 2em;
+  height: auto;
+  float: left;
+}
+
+.main-image{
+  width: 75%;
+  height: auto;
+}
+
+.header-name{
+  float: right;
+}
+
+.header-title{
+  float: right;
+}

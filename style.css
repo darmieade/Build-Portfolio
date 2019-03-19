@@ -125,11 +125,13 @@ height: auto;
 
 #img-one:hover, #img-two:hover, #img-three:hover{
   animation-name: animate;
-  animation-duration: 4s;
+  animation-duration: 2s;
 }
 
-#link-one :hover, #link-two :hover, #link-three :hover{
+#link-one:hover, #link-two:hover, #link-three:hover{
   color: blue;
+  animation-name: animate;
+  animation-duration: 2s;
 }
 
 footer{

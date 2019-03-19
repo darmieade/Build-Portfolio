@@ -5,7 +5,7 @@
 * Website Layout
 
 ## Link to View Portfolio
-Please Click [here](https://repl.it/@darmieade/Udacity-Build-Portfolio-Site) to view portfolio. The website is responsive and can be viewed on any device.
+Please Click [here](https://udacity-build-portfolio-site--darmieade.repl.co/) to view portfolio. The website is responsive and can be viewed on any device.
 
 ## Website Layout
 1. HTML elements were 1st created and laid out in their natural order, that way it would be easy to tab through elements easily. The elements used include:

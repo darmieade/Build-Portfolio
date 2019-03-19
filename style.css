@@ -50,7 +50,7 @@ header{
   margin: 0;
   padding: 0;
   width: 100%;
-  font-size: 3vw;
+  font-size: 2.5vw;
   text-align: end;
 }
 
@@ -84,7 +84,7 @@ header{
   align-content: center;
   align-items: center;
   width: 80%;
-  margin: 20px 0px;
+  margin: 1vw 0px;
 }
 
 #main-image{
@@ -94,7 +94,7 @@ height: auto;
 
 .section-header{
   font-size: 5vw;
-  margin: 1vw;
+  margin: 1vw 0px;
   width: 80%;
 }
 
@@ -117,14 +117,35 @@ height: auto;
   text-align: center;
 }
 
+
 #img-one, #img-two, #img-three{
   width: 25vw;
   height: auto;
 }
 
+#img-one:hover, #img-two:hover, #img-three:hover{
+  animation-name: animate;
+  animation-duration: 4s;
+}
+
 #link-one :hover, #link-two :hover, #link-three :hover{
   color: blue;
 }
+
+footer{
+  font-size: 2vw;
+  margin: 1vw 0px;
+  width: 80%;
+  text-align: center;
+}
+
+/* Animate Featured Images*/
+@keyframes animate {
+  0% {transform: scale3d(1,1,1);}
+  50%{transform: scale3d(0.9,0.9,0.9);}
+  100%{transform: scale3d(1,1,1);} 
+}
+
 
 /* Responsive Optimizations 
 @media only screen and (max-width: 720px) {

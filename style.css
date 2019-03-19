@@ -78,10 +78,13 @@ header{
 .divider{
   width: 80%;
   height: auto;
-  }
+}
+
+hr{
+  margin: 0;
+}
 
 /* Main Content CSS */
-
 .main{
   display: flex;
   flex-direction: column;
@@ -93,6 +96,12 @@ header{
 #main-image{
 width: 100%;
 height: auto;
+
+}
+
+.main-divider{
+  width: 100%;
+  height: auto;
 }
 
 .About-me{
@@ -117,7 +126,8 @@ height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 80%; 
+  width: 80%;
+  margin: 1vw 0px;
 }
 
 .work-one, .work-two, .work-three{

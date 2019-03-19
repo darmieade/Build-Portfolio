@@ -1,28 +1,121 @@
 html{
-  box-sizing: border-box
-}
-
-*,
-*::before
-*::after{
   box-sizing: border-box;
 }
 
-.header-logo{
-  width: 2em;
-  height: auto;
-  float: left;
+/* Body CSS */
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.main-image{
-  width: 75%;
+/* Container CSS */
+.container{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+
+/* Header CSS */
+header{
+  width: 80%;
   height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.header-text{
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .header-name{
-  float: right;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 3em;
+  text-align: end;
 }
 
 .header-title{
-  float: right;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: end;
+}
+
+.header-logo{
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  align-content: flex-end;
+  justify-items: flex-start;
+  flex-wrap: wrap;
+}
+
+#udacity-logo{
+  width: 4em;
+  height:auto;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Divider CSS */
+.divider{
+  width: 80%;
+  height: auto;
+  }
+
+/* Main Content CSS */
+
+.main{
+  display: flex;
+  align-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 20px 0px;
+}
+
+#main-image{
+width: 100%;
+height: auto;
+}
+
+.section-header{
+  font-size: 2em;
+  margin: 2px;
+  width: 80%;
+}
+
+.works{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%; 
+}
+
+.work-one, .work-two, .work-three{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
+  font-size: 16px;
+  text-align: center;
+}
+
+#img-one, #img-two, #img-three{
+  width: 25vw;
+  height: auto;
 }

@@ -8,7 +8,8 @@ body{
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Poiret One', cursive;
+  
 }
 
 /* Container CSS */
@@ -66,7 +67,7 @@ header{
   width: 10vw;
   height:auto;
   margin: 0;
-  padding: 0;
+  padding: 10% 0%;
 }
 
 
@@ -105,20 +106,24 @@ height: auto;
 }
 
 .work-one, .work-two, .work-three{
-  
   display: flex;
   flex-direction: column;
   justify-content:center;
   align-content: center;
   align-items: center;
   justify-items: center;
-  font-size: 4vw;
+  font-family: Arial;
+  font-size: 3vw;
   text-align: center;
 }
 
 #img-one, #img-two, #img-three{
   width: 25vw;
   height: auto;
+}
+
+#link-one :hover, #link-two :hover, #link-three :hover{
+  color: blue;
 }
 
 /* Responsive Optimizations 

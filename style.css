@@ -18,7 +18,8 @@ body{
   flex-direction: column;
   flex-wrap: wrap;
   align-content: flex-end;
-  margin-right: 5%;
+  margin-right: 10vw;
+  padding: 5vw 0vw;
 }
 
 
@@ -120,7 +121,7 @@ height: auto;
 
 
 #img-one, #img-two, #img-three{
-  width: 25vw;
+  width: 20vw;
   height: auto;
 }
 

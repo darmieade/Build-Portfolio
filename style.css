@@ -41,7 +41,7 @@ header{
   margin: 0;
   padding: 0;
   width: 100%;
-  font-size: 3em;
+  font-size: 6vw;
   text-align: end;
 }
 
@@ -49,6 +49,7 @@ header{
   margin: 0;
   padding: 0;
   width: 100%;
+  font-size: 3vw;
   text-align: end;
 }
 
@@ -62,7 +63,7 @@ header{
 }
 
 #udacity-logo{
-  width: 4em;
+  width: 10vw;
   height:auto;
   margin: 0;
   padding: 0;
@@ -91,8 +92,8 @@ height: auto;
 }
 
 .section-header{
-  font-size: 2em;
-  margin: 2px;
+  font-size: 5vw;
+  margin: 1vw;
   width: 80%;
 }
 
@@ -111,7 +112,7 @@ height: auto;
   align-content: center;
   align-items: center;
   justify-items: center;
-  font-size: 16px;
+  font-size: 4vw;
   text-align: center;
 }
 
@@ -119,3 +120,13 @@ height: auto;
   width: 25vw;
   height: auto;
 }
+
+/* Responsive Optimizations 
+@media only screen and (max-width: 720px) {
+  .deck {
+    width: 95%;
+    padding: 15px;
+    min-height: 95vw;
+    margin-bottom: 10px;        
+    }
+  }

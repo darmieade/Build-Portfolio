@@ -9,13 +9,13 @@ Please Click [here](https://repl.it/@darmieade/Udacity-Build-Portfolio-Site) to 
 
 ## Website Layout
 1. HTML elements were 1st created and laid out in their natural order, that way it would be easy to tab through elements easily. The elements used include:
-    * <header>
-    * <footer>
-    * <section>
-    * <article>
-    * <div>
-    * <a>
-    * <img>
+    * header
+    * footer
+    * section
+    * article
+    * div
+    * a
+    * img
 2. Ensured all displayed content is readable/legible, and do not overlap other content or overflow the viewport.
 3. All content can be viewed without horizontal scrolling.
 4. Flexbox was used to build the grid-based layout.
